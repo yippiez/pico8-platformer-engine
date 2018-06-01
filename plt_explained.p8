@@ -36,8 +36,8 @@ local tiley = flr((p.y/8))--y tile location in pico 8 map
 local tilex2 = flr((((p.x+7))/8))--right side of players x tile
 local tiley2 = flr((((p.y+7))/8))-- right side of players y tile
 
-local vsp = 0 --verticalspeed
-local hsp = 0 --horizantal speed
+local vsp = 0 --verticalspeed these are mixed up
+local hsp = 0 --horizantal speed these are mixed up i used vertical speed to go left right horizantal speed to go up and down
 
 local v_d = mget(tilex,tiley+1) --gets the tile below player
 local v_r = mget(tilex+1,tiley) --gets the tile right of the player
