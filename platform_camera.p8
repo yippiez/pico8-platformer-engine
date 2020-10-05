@@ -1,7 +1,6 @@
 pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
--- Created by Eren Cem Ay under mit license :p
 
 function _init()
 p = {
